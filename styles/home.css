@@ -1,8 +1,25 @@
 /* add home page styles here */
+
+section img {
+    width: 200px;
+}
+
+.imgButton {
+    text-align: center;
+}
+
+.imgButton {
+    text-align: center;
+}
+
 .ball {
     height: 25px;
     width: 25px;
     border-radius: 50%;
     background-color:darkviolet;
     display: none;
+}
+
+.shell.reveal .ball {
+    display: block;
 }

@@ -76,14 +76,6 @@ header img {
     height: var(--header-height);
 }
 
-section img {
-    width: 200px;
-}
-
-.imgButton {
-    text-align: center;
-}
-
 p {
     margin: var(--gutter);
 }
