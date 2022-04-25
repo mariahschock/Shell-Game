@@ -75,10 +75,14 @@ header img {
     height: var(--header-height);
 }
 
+section img {
+    width: 200px;
+}
+
 p {
     margin: var(--gutter);
 }
-  
+
 footer {
     position: fixed;
     width: 100%;
