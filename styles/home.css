@@ -1,1 +1,8 @@
 /* add home page styles here */
+.ball {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color:darkviolet;
+    display: none;
+}
