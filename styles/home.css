@@ -1,15 +1,6 @@
-/* add home page styles here */
 
 section img {
     width: 200px;
-}
-
-.imgButton {
-    text-align: center;
-}
-
-.imgButton {
-    text-align: center;
 }
 
 .ball {
@@ -17,9 +8,33 @@ section img {
     width: 25px;
     border-radius: 50%;
     background-color:violet;
+    position:absolute;
     display: none;
 }
 
 .shell.reveal .ball {
     display: block;
+}
+
+.shell {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.shell.reveal img {
+    transform: translateY(-60px);
+}
+.shells {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+}
+.shell img {
+    width: 100%;
+    transition: transform 0.5s ease-in-out;
+    z-index: 20;
 }
