@@ -8,8 +8,9 @@ section img {
     width: 25px;
     border-radius: 50%;
     background-color:violet;
-    position:absolute;
     display: none;
+    position:absolute;
+    top: 125px;
 }
 
 .shell.reveal .ball {
@@ -32,9 +33,4 @@ section img {
     margin-top: 40px;
     display: flex;
     flex-direction: row;
-}
-.shell img {
-    width: 100%;
-    transition: transform 0.5s ease-in-out;
-    z-index: 20;
 }
