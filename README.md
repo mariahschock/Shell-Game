@@ -24,3 +24,26 @@ Additional considerations:
   - What needs to live in a persistence layer?
 - Is there some state we need to initialize?
 - Ask: should any of this work be abstracted into functions? (i.e., is the work complicated? can it be resused?)
+
+
+## My Plan
+
+1.) Choose which shell/ball images I want and add them to my "assets" so that they're easy to grab
+2.) HTML elements I'll need: 
+    - Header (name my game)
+    - Section (with class of "shell=section") where the game will go
+    - Three images of shells and balls
+    - Spans for win, loss, and total
+    -Buttons
+3.) State:
+    - Wins
+    - Losses
+    - Total
+4.) Events:
+    - What needs to happen when button is clicked:
+        - Random number between 1-3 needs to be generated (this will determine which shell the ball is under)
+        - Use the reveal class
+        - Use if and else for when the user wins/loses
+        - Update the total of wins / losses / total of times button was clicked
+        - Reset shells
+      -This needs to be done for all three buttons
