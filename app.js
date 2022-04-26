@@ -58,3 +58,24 @@ btn2.addEventListener('click', () => {
     lossSpan.textContent = losses;
     totalSpan.textContent = wins + losses;
 });
+
+btn3.addEventListener('click', () => {
+    shell1.classList.remove('reveal');
+    shell2.classList.remove('reveal');
+    shell3.classList.remove('reveal');
+
+    const randomShell = Math.ceil(Math.random() * 3);
+    if (randomShell === 1) {
+        shell1.classList.add('reveal');
+        losses++;
+    } else if (randomShell === 2) {
+        shell2.classList.add('reveal');
+        losses++;
+    } else {
+        shell3.classList.add('reveal');
+        wins++;
+    }
+    winSpan.textContent = wins;
+    lossSpan.textContent = losses;
+    totalSpan.textContent = wins + losses;
+});
