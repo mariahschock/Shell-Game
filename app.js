@@ -3,6 +3,8 @@ const btn1 = document.getElementById('btn1');
 const btn2 = document.getElementById('btn2');
 const btn3 = document.getElementById('btn3');
 
+console.log(btn);
+
 const shell1 = document.getElementById('shell1');
 const shell2 = document.getElementById('shell2');
 const shell3 = document.getElementById('shell3');
